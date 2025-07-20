@@ -1,19 +1,13 @@
 
-.header{
-    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 151px 0;
+.img-header{
+    position: relative;
 }
-@media (max-width:767px) {
-    .header{
-        background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true");
-        padding: 87px 0;
-    }
+.title-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
-
-
 .section-line{
     border-bottom: 1px solid var(--neutral-300);
 }

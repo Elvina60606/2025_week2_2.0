@@ -9,22 +9,26 @@
     <link rel="stylesheet" href="style/detail-style.css">
 </head>
 <body>
-    <div class="container">
+<div class="container">
         <nav class="d-flex align-center justify-between">
-            <ul class="py-16 d-flex align-center">
+            <ul class="py-16 py-sm-12 d-flex align-center">
                 <li>
                     <a class="nav-logo me-48" href="index.html"><img src="img/logo.svg" alt="logo"></a>
                 </li>
-                <li>
+                <li class="d-sm-none">
                     <a class="me-40 py-12" href="index.html">商品列表</a></li>
-                <li>
-                    <a class="py-12" href="https://elvina60606.github.io/2025_week1_2.0/" target="_blank">品牌故事</a></li>
+                <li class="d-sm-none">
+                    <a class="py-12" href="story.html" target="_blank">品牌故事</a></li>
             </ul>
-            <a href="#"><i class="p-12 bi bi-person"></i></a>
+            <a href="#"><i class="py-12 bi bi-person"></i></a>
         </nav>
-        <main class="py-64">
-            <div class="row d-flex flex-wrap">
-                <div class="col-7">
+ </div>
+ <div class="container">
+        <main class="py-64 py-md-0">
+            <div class="row row-md">
+                <div class="d-none d-md-block col-md-4 mb-8 mb-md-24"><img src="img/image.png" alt="platform404">
+                </div>
+                <div class="col-7 d-md-none">
                     <div class="row-img">
                         <div class="col-6-img mb-8">
                             <img src="img/image.png" alt="platform404">
@@ -33,7 +37,7 @@
                             <img src="img/image-1.png" alt="platform404">
                         </div>
                         <div class="col-6-img mb-8">
-                            <img src="img/image-2.png" alt="platform404">
+                        <img src="img/image-2.png"  alt="platform404">
                         </div>
                         <div class="col-6-img mb-8">
                             <img src="img/image-3.png" alt="platform404">
@@ -53,8 +57,8 @@
                         
                     </div>
                 </div>
-                <div class="col-5">
-                    <nav class="mb-12">
+                <div class="col-5 col-md-4">
+                    <nav class="mb-12 mb-md-8">
                         <ol class="d-flex">
                             <li class="breadcrumb-item"><a class="text-neutral-600"  href="https://elvina60606.github.io/2025_week1_2.0/">首頁</a></li>
                             <li class="breadcrumb-item"><a  class="text-neutral-600" href="#">女鞋</a></li>
@@ -63,15 +67,15 @@
                         </ol>
                     </nav>
                     <div>
-                    <h2 class="h2 mb-16">platform404</h2>
-                    <div class="h5 me-8 text-primary-400 mb-16">NT$2,600<del class="del-price">
+                    <h2 class="h2 h4-md mb-16 mb-md-12">platform404</h2>
+                    <div class="h5 h6-md me-8 text-primary-400 mb-16 mb-md-12">NT$2,600<del class="del-price">
                     NT$3,200</del></div>
                     <p class="mb-12">Platform 404 以柔和奶白為底，搭配深藍色皮革點綴，走在街上自帶回頭率。鞋型採用復古運動風輪廓，結合輕量厚底與柔軟泡棉鞋舌，兼顧美感與舒適。</p>
     
                     <p class="mb-32">鞋身選用柔軟皮革材質，打造出清新卻不失個性的氛圍，並以鞋面透氣孔設計提升穿著體驗，兼顧質感與舒適度，適合日常長時間著用。無論是街頭穿搭、日常通勤或週末出遊都能輕鬆駕馭。</p>
                     </div>
                     <h3 class="mb-8">顏色</h3>
-                    <div class="d-flex text-center mb-32">
+                    <div class="d-flex text-center mb-32 mb-md-24">
                         <div class="product-color me-8">
                             <img class="mb-4" src="img/product.png" alt="藍色">
                             <p class="text-neutral-600">藍色</p>
@@ -93,13 +97,14 @@
                         <button class="btn btn-product-size" disabled>42(26.0cm)</button>
                         <button class="btn btn-product-size" disabled>43(26.5cm)</button>
                     </div>
-                    <p class="text-danger mb-48">僅剩 3 雙</p>
+                    <p class="text-14 text-danger mb-48 mb-md-24">僅剩 3 雙</p>
 
                 <div class="d-flex gap-8 mb-32">
-                    <button class="btn btn-like"><i class="bi bi-heart me-8"></i>加入收藏</button>
+                    <button class="btn btn-like d-md-none"><i class="bi bi-heart me-8"></i>加入收藏</button>
                     <button class="btn btn-dark btn-like"><i class="bi bi-handbag me-8"></i>門市預約試穿</button>
-
+                    <button class="btn btn-like2 d-none d-md-block"><i class="bi bi-heart"></i></button>
                 </div>
+
                 <div class="bb-line py-12">
                   <h4 class="mb-4">商品材質</h4>
                     <ul>
@@ -124,10 +129,10 @@
              </div>
         </main>
     </div>
-    <div class="container py-48 mb-48">
+    <div class="container py-48 py-md-40 mb-40 mb-md-24">
         <h4 class="h4 mb-16">你可能也喜歡...</h4>
-        <div class="row d-flex flex-wrap">
-            <div class="col-3">
+        <div class="row row-md-flow flex-md-nowrap overflow-md-auto">
+            <div class="col-3 w-md-300 py-md-8 flex-md-shrink0">
                 <a href="#">
                     <img class="mb-12" src="img/product-2.png" alt="product-2">
                     <h6 class="h6 mb-4">VM001
@@ -135,7 +140,7 @@
                     <p class="price">NT$2,600</p>
                 </a>
             </div>
-                <div class="col-3">
+            <div class="col-3 w-md-300 py-md-8 flex-md-shrink0">
                 <a href="#">
                     <img class="mb-12" src="img/product-3.png" alt="product-2">
                     <h6 class="h6 mb-4">Melty Kiss
@@ -143,7 +148,7 @@
                     <p class="price">NT$4,000</p>
                 </a>
             </div>
-                <div class="col-3">
+            <div class="col-3 w-md-300 py-md-8 flex-md-shrink0">
                 <a href="#">
                     <img class="mb-12" src="img/product-4.png" alt="product-2">
                     <h6 class="h6 mb-4">BOOMBLOK
@@ -151,7 +156,7 @@
                     <p class="price">NT$3,200</p>
                 </a>
             </div>
-                <div class="col-3">
+            <div class="col-3 w-md-300 py-md-8 flex-md-shrink0">
                 <a href="#">
                     <img class="mb-12" src="img/product-7.png" alt="product-2">
                     <h6 class="h6 mb-4">Sugar Snap
@@ -161,24 +166,24 @@
             </div>
         </div>
     </div>
-     <div class="coupon">
+      <div class="coupon">
         <div class="py-24 bg-primary-200 d-flex justify-center align-center">
-         <p class="h4 me-24">加入會員取得 9 折優惠</p>
+         <p class="h4 h5-sm me-24 me-sm-16">加入會員取得 9 折優惠</p>
          <button class="btn btn-dark">馬上註冊</button>
         </div>
     </div>
-    <footer class="footer bg-neutral-100 py-64">    
+    <footer class="footer bg-neutral-100 py-64 py-sm-32">    
         <div class="container">
-            <nav class="mb-24 bb-line">
-                <ul class="py-16 d-flex justify-between align-center">
-                <li>
+            <nav class="pb-24 mb-32 bb-line">
+                <ul class="py-16 py-sm-0 d-flex justify-between align-center d-sm-block">
+                <li class="mb-sm-8">
                     <a class="nav-logo me-48" href="index.html"><img src="img/logo.svg" alt="logo"></a>
                 </li>
-                <div class="d-flex">
+                <div class="d-flex align-center d-sm-block px-sm-12">
                 <li>
-                    <a class="me-40 py-12" href="index.html">商品列表</a></li>
+                    <a class="me-40 mb-sm-4 py-12 d-md-block" href="index.html">商品列表</a></li>
                 <li>
-                    <a class="py-12" href="https://elvina60606.github.io/2025_week1_2.0/" target="_blank">品牌故事</a></li>
+                    <a class="py-12 d-sm-block" href="story.html" target="_blank">品牌故事</a></li>
                 </div>
                 </ul>
             </nav>

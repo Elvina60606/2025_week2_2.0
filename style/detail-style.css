@@ -10,6 +10,23 @@
     padding-left: 4px;
     padding-right: 4px;
 }
+@media (max-width:767px) {
+    .overflow-md-auto{
+        overflow-x: auto;
+    }
+    .flex-md-shrink0{
+        flex-shrink: 0;
+    }
+    .row-md-flow{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .w-md-300{
+        width: 300px;
+    }
+}
 
 /* 產品價格 */
 .del-price{
@@ -31,6 +48,12 @@
     line-height: 1.5;
     letter-spacing: 0.05em;
 }
+@media (max-width:767px) {
+    .btn-product-size{
+        padding: 12px 24px;
+    }
+    
+}
 
 .btn-product-size:disabled {
   opacity: 0.5;
@@ -49,10 +72,19 @@
     line-height: 1.5;
     letter-spacing: 0.05em;
 }
+@media (max-width:767px) {
+    .btn-like{
+        width: calc(100% - 48px);
+    }  
+}
 
 .btn-like:hover{
     background: var(--neutral-900);
     color: var(--neutral-white);
+}
+.btn-like2{
+    padding: 12px;
+    border: none;
 }
 
 /* 產品細節 */
